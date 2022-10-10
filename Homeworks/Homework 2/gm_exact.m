@@ -1,4 +1,4 @@
-function [x_opt, val_opt] = gm_exact(A, x_init, epsilon)
+function [x_opt, val_opt, iter] = gm_exact(A, x_init, epsilon)
 
     % f = xT A x, grad = 2 Ax
 
